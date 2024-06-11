@@ -1,0 +1,159 @@
+{"territory_id": "01581", "territory_description": "Westboro", "region_id": 1}
+{"territory_id": "01730", "territory_description": "Bedford", "region_id": 1}
+{"territory_id": "01833", "territory_description": "Georgetow", "region_id": 1}
+{"territory_id": "02116", "territory_description": "Boston", "region_id": 1}
+{"territory_id": "02139", "territory_description": "Cambridge", "region_id": 1}
+{"territory_id": "02184", "territory_description": "Braintree", "region_id": 1}
+{"territory_id": "02903", "territory_description": "Providence", "region_id": 1}
+{"territory_id": "03049", "territory_description": "Hollis", "region_id": 3}
+{"territory_id": "03801", "territory_description": "Portsmouth", "region_id": 3}
+{"territory_id": "06897", "territory_description": "Wilton", "region_id": 1}
+{"territory_id": "07960", "territory_description": "Morristown", "region_id": 1}
+{"territory_id": "08837", "territory_description": "Edison", "region_id": 1}
+{"territory_id": "10019", "territory_description": "New York", "region_id": 1}
+{"territory_id": "10038", "territory_description": "New York", "region_id": 1}
+{"territory_id": "11747", "territory_description": "Mellvile", "region_id": 1}
+{"territory_id": "14450", "territory_description": "Fairport", "region_id": 1}
+{"territory_id": "19428", "territory_description": "Philadelphia", "region_id": 3}
+{"territory_id": "19713", "territory_description": "Neward", "region_id": 1}
+{"territory_id": "20852", "territory_description": "Rockville", "region_id": 1}
+{"territory_id": "27403", "territory_description": "Greensboro", "region_id": 1}
+{"territory_id": "27511", "territory_description": "Cary", "region_id": 1}
+{"territory_id": "29202", "territory_description": "Columbia", "region_id": 4}
+{"territory_id": "30346", "territory_description": "Atlanta", "region_id": 4}
+{"territory_id": "31406", "territory_description": "Savannah", "region_id": 4}
+{"territory_id": "32859", "territory_description": "Orlando", "region_id": 4}
+{"territory_id": "33607", "territory_description": "Tampa", "region_id": 4}
+{"territory_id": "40222", "territory_description": "Louisville", "region_id": 1}
+{"territory_id": "44122", "territory_description": "Beachwood", "region_id": 3}
+{"territory_id": "45839", "territory_description": "Findlay", "region_id": 3}
+{"territory_id": "48075", "territory_description": "Southfield", "region_id": 3}
+{"territory_id": "48084", "territory_description": "Troy", "region_id": 3}
+{"territory_id": "48304", "territory_description": "Bloomfield Hills", "region_id": 3}
+{"territory_id": "53404", "territory_description": "Racine", "region_id": 3}
+{"territory_id": "55113", "territory_description": "Roseville", "region_id": 3}
+{"territory_id": "55439", "territory_description": "Minneapolis", "region_id": 3}
+{"territory_id": "60179", "territory_description": "Hoffman Estates", "region_id": 2}
+{"territory_id": "60601", "territory_description": "Chicago", "region_id": 2}
+{"territory_id": "72716", "territory_description": "Bentonville", "region_id": 4}
+{"territory_id": "75234", "territory_description": "Dallas", "region_id": 4}
+{"territory_id": "78759", "territory_description": "Austin", "region_id": 4}
+{"territory_id": "80202", "territory_description": "Denver", "region_id": 2}
+{"territory_id": "80909", "territory_description": "Colorado Springs", "region_id": 2}
+{"territory_id": "85014", "territory_description": "Phoenix", "region_id": 2}
+{"territory_id": "85251", "territory_description": "Scottsdale", "region_id": 2}
+{"territory_id": "90405", "territory_description": "Santa Monica", "region_id": 2}
+{"territory_id": "94025", "territory_description": "Menlo Park", "region_id": 2}
+{"territory_id": "94105", "territory_description": "San Francisco", "region_id": 2}
+{"territory_id": "95008", "territory_description": "Campbell", "region_id": 2}
+{"territory_id": "95054", "territory_description": "Santa Clara", "region_id": 2}
+{"territory_id": "95060", "territory_description": "Santa Cruz", "region_id": 2}
+{"territory_id": "98004", "territory_description": "Bellevue", "region_id": 2}
+{"territory_id": "98052", "territory_description": "Redmond", "region_id": 2}
+{"territory_id": "98104", "territory_description": "Seattle", "region_id": 2}
+{"territory_id": "01581", "territory_description": "Westboro", "region_id": 1}
+{"territory_id": "01730", "territory_description": "Bedford", "region_id": 1}
+{"territory_id": "01833", "territory_description": "Georgetow", "region_id": 1}
+{"territory_id": "02116", "territory_description": "Boston", "region_id": 1}
+{"territory_id": "02139", "territory_description": "Cambridge", "region_id": 1}
+{"territory_id": "02184", "territory_description": "Braintree", "region_id": 1}
+{"territory_id": "02903", "territory_description": "Providence", "region_id": 1}
+{"territory_id": "03049", "territory_description": "Hollis", "region_id": 3}
+{"territory_id": "03801", "territory_description": "Portsmouth", "region_id": 3}
+{"territory_id": "06897", "territory_description": "Wilton", "region_id": 1}
+{"territory_id": "07960", "territory_description": "Morristown", "region_id": 1}
+{"territory_id": "08837", "territory_description": "Edison", "region_id": 1}
+{"territory_id": "10019", "territory_description": "New York", "region_id": 1}
+{"territory_id": "10038", "territory_description": "New York", "region_id": 1}
+{"territory_id": "11747", "territory_description": "Mellvile", "region_id": 1}
+{"territory_id": "14450", "territory_description": "Fairport", "region_id": 1}
+{"territory_id": "19428", "territory_description": "Philadelphia", "region_id": 3}
+{"territory_id": "19713", "territory_description": "Neward", "region_id": 1}
+{"territory_id": "20852", "territory_description": "Rockville", "region_id": 1}
+{"territory_id": "27403", "territory_description": "Greensboro", "region_id": 1}
+{"territory_id": "27511", "territory_description": "Cary", "region_id": 1}
+{"territory_id": "29202", "territory_description": "Columbia", "region_id": 4}
+{"territory_id": "30346", "territory_description": "Atlanta", "region_id": 4}
+{"territory_id": "31406", "territory_description": "Savannah", "region_id": 4}
+{"territory_id": "32859", "territory_description": "Orlando", "region_id": 4}
+{"territory_id": "33607", "territory_description": "Tampa", "region_id": 4}
+{"territory_id": "40222", "territory_description": "Louisville", "region_id": 1}
+{"territory_id": "44122", "territory_description": "Beachwood", "region_id": 3}
+{"territory_id": "45839", "territory_description": "Findlay", "region_id": 3}
+{"territory_id": "48075", "territory_description": "Southfield", "region_id": 3}
+{"territory_id": "48084", "territory_description": "Troy", "region_id": 3}
+{"territory_id": "48304", "territory_description": "Bloomfield Hills", "region_id": 3}
+{"territory_id": "53404", "territory_description": "Racine", "region_id": 3}
+{"territory_id": "55113", "territory_description": "Roseville", "region_id": 3}
+{"territory_id": "55439", "territory_description": "Minneapolis", "region_id": 3}
+{"territory_id": "60179", "territory_description": "Hoffman Estates", "region_id": 2}
+{"territory_id": "60601", "territory_description": "Chicago", "region_id": 2}
+{"territory_id": "72716", "territory_description": "Bentonville", "region_id": 4}
+{"territory_id": "75234", "territory_description": "Dallas", "region_id": 4}
+{"territory_id": "78759", "territory_description": "Austin", "region_id": 4}
+{"territory_id": "80202", "territory_description": "Denver", "region_id": 2}
+{"territory_id": "80909", "territory_description": "Colorado Springs", "region_id": 2}
+{"territory_id": "85014", "territory_description": "Phoenix", "region_id": 2}
+{"territory_id": "85251", "territory_description": "Scottsdale", "region_id": 2}
+{"territory_id": "90405", "territory_description": "Santa Monica", "region_id": 2}
+{"territory_id": "94025", "territory_description": "Menlo Park", "region_id": 2}
+{"territory_id": "94105", "territory_description": "San Francisco", "region_id": 2}
+{"territory_id": "95008", "territory_description": "Campbell", "region_id": 2}
+{"territory_id": "95054", "territory_description": "Santa Clara", "region_id": 2}
+{"territory_id": "95060", "territory_description": "Santa Cruz", "region_id": 2}
+{"territory_id": "98004", "territory_description": "Bellevue", "region_id": 2}
+{"territory_id": "98052", "territory_description": "Redmond", "region_id": 2}
+{"territory_id": "98104", "territory_description": "Seattle", "region_id": 2}
+{"territory_id": "01581", "territory_description": "Westboro", "region_id": 1}
+{"territory_id": "01730", "territory_description": "Bedford", "region_id": 1}
+{"territory_id": "01833", "territory_description": "Georgetow", "region_id": 1}
+{"territory_id": "02116", "territory_description": "Boston", "region_id": 1}
+{"territory_id": "02139", "territory_description": "Cambridge", "region_id": 1}
+{"territory_id": "02184", "territory_description": "Braintree", "region_id": 1}
+{"territory_id": "02903", "territory_description": "Providence", "region_id": 1}
+{"territory_id": "03049", "territory_description": "Hollis", "region_id": 3}
+{"territory_id": "03801", "territory_description": "Portsmouth", "region_id": 3}
+{"territory_id": "06897", "territory_description": "Wilton", "region_id": 1}
+{"territory_id": "07960", "territory_description": "Morristown", "region_id": 1}
+{"territory_id": "08837", "territory_description": "Edison", "region_id": 1}
+{"territory_id": "10019", "territory_description": "New York", "region_id": 1}
+{"territory_id": "10038", "territory_description": "New York", "region_id": 1}
+{"territory_id": "11747", "territory_description": "Mellvile", "region_id": 1}
+{"territory_id": "14450", "territory_description": "Fairport", "region_id": 1}
+{"territory_id": "19428", "territory_description": "Philadelphia", "region_id": 3}
+{"territory_id": "19713", "territory_description": "Neward", "region_id": 1}
+{"territory_id": "20852", "territory_description": "Rockville", "region_id": 1}
+{"territory_id": "27403", "territory_description": "Greensboro", "region_id": 1}
+{"territory_id": "27511", "territory_description": "Cary", "region_id": 1}
+{"territory_id": "29202", "territory_description": "Columbia", "region_id": 4}
+{"territory_id": "30346", "territory_description": "Atlanta", "region_id": 4}
+{"territory_id": "31406", "territory_description": "Savannah", "region_id": 4}
+{"territory_id": "32859", "territory_description": "Orlando", "region_id": 4}
+{"territory_id": "33607", "territory_description": "Tampa", "region_id": 4}
+{"territory_id": "40222", "territory_description": "Louisville", "region_id": 1}
+{"territory_id": "44122", "territory_description": "Beachwood", "region_id": 3}
+{"territory_id": "45839", "territory_description": "Findlay", "region_id": 3}
+{"territory_id": "48075", "territory_description": "Southfield", "region_id": 3}
+{"territory_id": "48084", "territory_description": "Troy", "region_id": 3}
+{"territory_id": "48304", "territory_description": "Bloomfield Hills", "region_id": 3}
+{"territory_id": "53404", "territory_description": "Racine", "region_id": 3}
+{"territory_id": "55113", "territory_description": "Roseville", "region_id": 3}
+{"territory_id": "55439", "territory_description": "Minneapolis", "region_id": 3}
+{"territory_id": "60179", "territory_description": "Hoffman Estates", "region_id": 2}
+{"territory_id": "60601", "territory_description": "Chicago", "region_id": 2}
+{"territory_id": "72716", "territory_description": "Bentonville", "region_id": 4}
+{"territory_id": "75234", "territory_description": "Dallas", "region_id": 4}
+{"territory_id": "78759", "territory_description": "Austin", "region_id": 4}
+{"territory_id": "80202", "territory_description": "Denver", "region_id": 2}
+{"territory_id": "80909", "territory_description": "Colorado Springs", "region_id": 2}
+{"territory_id": "85014", "territory_description": "Phoenix", "region_id": 2}
+{"territory_id": "85251", "territory_description": "Scottsdale", "region_id": 2}
+{"territory_id": "90405", "territory_description": "Santa Monica", "region_id": 2}
+{"territory_id": "94025", "territory_description": "Menlo Park", "region_id": 2}
+{"territory_id": "94105", "territory_description": "San Francisco", "region_id": 2}
+{"territory_id": "95008", "territory_description": "Campbell", "region_id": 2}
+{"territory_id": "95054", "territory_description": "Santa Clara", "region_id": 2}
+{"territory_id": "95060", "territory_description": "Santa Cruz", "region_id": 2}
+{"territory_id": "98004", "territory_description": "Bellevue", "region_id": 2}
+{"territory_id": "98052", "territory_description": "Redmond", "region_id": 2}
+{"territory_id": "98104", "territory_description": "Seattle", "region_id": 2}
