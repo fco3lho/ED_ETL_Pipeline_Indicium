@@ -1,7 +1,31 @@
-version: 1
 default_environment: dev
-project_id: adf55b8e-2cf8-40f2-99d4-4b38474ffe0d
 environments:
 - name: dev
 - name: staging
 - name: prod
+plugins:
+  extractors:
+  - config:
+      files:
+      - entity: order_details
+        file: 2024-06-12.csv
+        keys:
+        - order_id
+        - product_id
+        - unit_price
+        - quantity
+        - discount
+        path: ../data/csv/order_details
+    name: tap-csv
+    pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
+    select:
+    - order_details.*
+    variant: meltanolabs
+  loaders:
+  - config:
+      sqlalchemy_url: postgresql://user:password@localhost:5433/db_loader
+    name: target-postgres
+    pip_url: meltanolabs-target-postgres
+    variant: meltanolabs
+project_id: adf55b8e-2cf8-40f2-99d4-4b38474ffe0d
+version: 1

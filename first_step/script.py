@@ -46,7 +46,7 @@ def convert_jsonl_to_csv(tables, date):
         os.remove(jsonl_file)
 
 current_date = datetime.now().strftime('%Y-%m-%d')
-tables = ["employee_territories", "orders", "customers", "products", "shippers", "suppliers", "territories", "us_states", "region", "employees"]
+tables = ["categories", "customer_customer_demo", "customer_demographics", "customers", "employee_territories", "employees", "orders", "products", "region", "shippers", "suppliers", "territories", "us_states"]
 
 script(tables, current_date)
 convert_jsonl_to_csv(tables, current_date)
