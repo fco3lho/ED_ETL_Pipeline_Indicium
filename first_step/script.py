@@ -4,7 +4,11 @@ import os
 import yaml
 
 def script(tables, date):
-    with open("meltano.yml", "r") as file:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    meltano_file = os.path.join(script_dir, "meltano.yml")
+    os.chdir(script_dir)
+
+    with open(meltano_file, "r") as file:
         config = yaml.safe_load(file)
 
     # PostgreSQL to JSONL
@@ -13,32 +17,33 @@ def script(tables, date):
 
         config["plugins"]["extractors"][0]["select"] = [f"public-{table}.*"]
 
-        with open("meltano.yml", "w") as file:
+        with open(meltano_file, "w") as file:
             yaml.safe_dump(config, file)
 
-        destination_path = f"../data/postgres/{table}/"
+        destination_path = os.path.join(os.path.abspath(os.path.join(script_dir, os.pardir)), f"data/postgres/{table}/")
         os.system(f"meltano config target-jsonl set destination_path {destination_path}")
         os.system(f"meltano config target-jsonl set custom_name {date}")
         os.system("meltano run tap-postgres target-jsonl")
 
     # CSV to JSONL
-    destination_path = f"../data/csv/order_details/"
+    destination_path = os.path.join(os.path.abspath(os.path.join(script_dir, os.pardir)), "data/csv/order_details/")
     os.system(f"meltano config target-jsonl set destination_path {destination_path}")
     os.system(f"meltano config target-jsonl set custom_name {date}")
     os.system("meltano run tap-csv target-jsonl")
 
 def convert_jsonl_to_csv(tables, date):
     for table in tables:
-        jsonl_file = f"../data/postgres/{table}/{date}.jsonl"
-        csv_file = f"../data/postgres/{table}/{date}.csv"
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        jsonl_file = os.path.join(os.path.abspath(os.path.join(script_dir, os.pardir)), f"data/postgres/{table}/{date}.jsonl")
+        csv_file = os.path.join(os.path.abspath(os.path.join(script_dir, os.pardir)), f"data/postgres/{table}/{date}.csv")
 
         if os.path.exists(jsonl_file):
             df = pd.read_json(jsonl_file, lines=True)
             df.to_csv(csv_file, index=False)
             os.remove(jsonl_file)
-    
-    jsonl_file = f"../data/csv/order_details/{date}.jsonl"
-    csv_file = f"../data/csv/order_details/{date}.csv"
+
+    jsonl_file = os.path.join(os.path.abspath(os.path.join(script_dir, os.pardir)), f"data/csv/order_details/{date}.jsonl")
+    csv_file = os.path.join(os.path.abspath(os.path.join(script_dir, os.pardir)), f"data/csv/order_details/{date}.csv")
 
     if os.path.exists(jsonl_file):
         df = pd.read_json(jsonl_file, lines=True)

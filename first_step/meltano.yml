@@ -11,7 +11,7 @@ plugins:
     config:
       sqlalchemy_url: postgresql://northwind_user:thewindisblowing@localhost:5432/northwind
     select:
-    - public-employees.*
+    - public-us_states.*
   - name: tap-csv
     variant: meltanolabs
     pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
@@ -32,6 +32,6 @@ plugins:
     pip_url: target-jsonl
     config:
       custom_name: '2024-06-12'
-      destination_path: ../data/csv/order_details/
+      destination_path: /home/felipecampos/Documents/Repositorys/indicium/data/csv/order_details/
 project_id: 7ba47ca9-d910-42dd-a2e9-4d5e0d379082
 version: 1
