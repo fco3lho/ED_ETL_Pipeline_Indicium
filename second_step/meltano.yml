@@ -8,7 +8,7 @@ plugins:
   - config:
       files:
       - entity: order_details
-        file: 2024-06-12.csv
+        file: 2024-06-14.csv
         keys:
         - order_id
         - product_id
