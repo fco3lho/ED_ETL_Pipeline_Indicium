@@ -1,4 +1,4 @@
 #!/bin/bash
-source ./second_step/venv/bin/activate
-cd ./second_step
+source ~/Documents/Repositorys/indicium/second_step/venv/bin/activate
+cd ~/Documents/Repositorys/indicium/second_step
 python script.py
