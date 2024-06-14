@@ -42,6 +42,8 @@
     1. Execute o comando ```python3 -m venv venv``` para criar o ambiente virtual destinado ao Apache Airflow, 
     2. Ative o ambiente virtual executando o comando ```source venv/bin/activate```, 
     3. Instale as bibliotecas necessárias executando o comando ```pip install -r requirements.txt```.
+    4. Dê permissão de execução para o script Bash da primeira etapa executando o comando: ```chmod +x run_first_step.sh```.
+    5. Dê permissão de execução para o script Bash da segunda etapa executando o comando: ```chmod +x run_second_step.sh```.
 
 9. Com o Apache Airflow instalado e com o ambiente de desenvolvimento ativado, execute o comando ```airflow standalone```. No final da execução deste comando, será fornecido ao usuário as credenciais de login para acessar o Airflow na porta 8080, como no exemplo abaixo, que o username é <strong>admin</strong> e a senha é <strong>2HMSV2VwuxugkzDK</strong>.
 
