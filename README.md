@@ -66,3 +66,5 @@
 15. Após isso, você poderá ver sua DAG sendo executada passo por passo na aba de <strong>graph</strong>.
 
 ![Executando dag](./images/executing_dag.png)
+
+16. Quando a DAG for totalmente executada com êxito, será possível ver um arquivo JSON na pasta "messages" contendo a mensagem de sucesso na execução, juntamente com a data e a hora do término da execução.
