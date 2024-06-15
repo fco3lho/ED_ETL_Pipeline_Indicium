@@ -55,7 +55,7 @@
 
 12. Agora, vá até o navegador e digite a URL ```http://localhost:8080/```. A página de login do Apache Airflow será mostrada e é possível conectar usando as credenciais recebidas no passo 9.
 
-13. Uma lista de DAGs será mostrada, procure a DAG com nome <strong>indicium_dag</strong> e clique nela.
+13. Uma lista de DAGs será mostrada, procure a DAG com nome <strong>indicium_dag</strong> e clique nela. (Pode demorar um pouco até que o servidor atualize e a DAG seja mostrada na lista).
 
 ![Lista de DAGs](./images/dags_list.png)
 
@@ -67,4 +67,10 @@
 
 ![Executando dag](./images/executing_dag.png)
 
-16. Quando a DAG for totalmente executada com êxito, será possível ver um arquivo JSON na pasta "messages" contendo a mensagem de sucesso na execução, juntamente com a data e a hora do término da execução.
+16. Quando a DAG for totalmente executada com êxito, será possível ver um arquivo JSON na pasta ```~/indicium-test/messages/``` contendo a mensagem de sucesso na execução, juntamente com a data e a hora do término da execução.
+
+### Quando finalizado, será possível consultar o banco de dados e ver que todas as tabelas foram carregadas. Para isso, siga o passos abaixo:
+
+1. Com os containers dos bancos de dados funcionando, digite o seguinte comando no terminal: ```docker exec -it indicium-test-db_loader-1 psql -U user -d db_loader```. Este comando lhe conectará ao banco de dados para fazer consultas.
+
+2. Faça consultas no banco de dados no seguinte formato: <strong>SELECT * FROM tap_csv.(Nome da tabela);</strong>. Exemplo: ```SELECT * FROM tap_csv.suppliers;```
