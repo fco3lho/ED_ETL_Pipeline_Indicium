@@ -8,14 +8,14 @@ plugins:
   - config:
       files:
       - entity: order_details
-        file: 2024-06-14.csv
+        file: 2024-07-01.csv
         keys:
         - order_id
         - product_id
         - unit_price
         - quantity
         - discount
-        path: ../data/csv/order_details
+        path: ../../data/csv/order_details
     name: tap-csv
     pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
     select:
@@ -23,9 +23,9 @@ plugins:
     variant: meltanolabs
   loaders:
   - config:
-      sqlalchemy_url: postgresql://user:password@localhost:5433/db_loader
+      sqlalchemy_url: postgresql://user:password@localhost:5433/dbloader
     name: target-postgres
     pip_url: meltanolabs-target-postgres
     variant: meltanolabs
-project_id: adf55b8e-2cf8-40f2-99d4-4b38474ffe0d
+project_id: 8ccb08ff-d1b1-43c2-be39-f5612ae3d4d5
 version: 1

@@ -25,13 +25,14 @@ plugins:
         - unit_price
         - quantity
         - discount
-        path: ../data/
+        path: ../../data/
   loaders:
   - name: target-jsonl
     variant: andyh1203
     pip_url: target-jsonl
     config:
-      custom_name: '2024-06-14'
-      destination_path: /home/felipecampos/Documents/Repositorys/indicium/data/csv/order_details/
-project_id: 7ba47ca9-d910-42dd-a2e9-4d5e0d379082
+      custom_name: '2024-07-01'
+      destination_path: 
+        /home/felipecampos/Documents/Repositorys/LH_ED_FelipeCampos/data/csv/order_details/
+project_id: 8d9ac22d-1685-4f92-bd8a-accf5a215593
 version: 1

@@ -13,7 +13,7 @@ services:
   db_loader:
     image: postgres:12
     environment:
-      POSTGRES_DB: db_loader
+      POSTGRES_DB: dbloader
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
     ports:
